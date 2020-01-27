@@ -10,6 +10,7 @@ class ShoppingListApplication {
     public static void main(String[] args) {
         Map<Long, Product> productRepository = new HashMap<>();
         Long productIdSequence = 0L;
+        
         while (true) {
             Scanner scanner = new Scanner(System.in);
             try {
@@ -17,7 +18,7 @@ class ShoppingListApplication {
                 System.out.println("2. Find product by id");
                 System.out.println("3. Exit");
                 Integer userInput = Integer.valueOf(scanner.nextLine());
-                
+
                 switch (userInput) {
                     case 1:
                         System.out.println("Enter product name: ");
