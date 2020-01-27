@@ -6,11 +6,12 @@ import java.util.Map;
 import java.util.Scanner;
 
 class ShoppingListApplication {
+    
 
     public static void main(String[] args) {
         Map<Long, Product> productRepository = new HashMap<>();
         Long productIdSequence = 0L;
-        
+
         while (true) {
             Scanner scanner = new Scanner(System.in);
             try {
