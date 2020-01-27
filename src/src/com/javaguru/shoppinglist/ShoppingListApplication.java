@@ -17,6 +17,7 @@ class ShoppingListApplication {
                 System.out.println("2. Find product by id");
                 System.out.println("3. Exit");
                 Integer userInput = Integer.valueOf(scanner.nextLine());
+                
                 switch (userInput) {
                     case 1:
                         System.out.println("Enter product name: ");
