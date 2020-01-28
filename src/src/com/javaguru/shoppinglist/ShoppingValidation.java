@@ -9,7 +9,6 @@ public class ShoppingValidation {
     public String category;
     public BigDecimal percent;
 
-
     public ShoppingValidation(String name, BigDecimal price, String category, BigDecimal percent) {
         this.name = name;
         this.price = price;
