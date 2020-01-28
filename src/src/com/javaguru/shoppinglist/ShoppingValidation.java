@@ -1,5 +1,6 @@
 package src.com.javaguru.shoppinglist;
 
+
 import java.math.BigDecimal;
 
 public class ShoppingValidation {
